@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #DCDCDC;
+    padding: 120px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 40px 30px;
+    background-color: #c7c7c7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form {
+    padding-top: 20px;
+    display: flex;
+}
+
+/* label {
+    font-size: 18px;
+    padding-right: 10px;
+} */
+
+input {
+    padding: 15px;
+    border: 2px solid #0093D4;
+    background-color: transparent;
+    border-radius: 2px;
+    width: 50%;
+}
+
+button {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+    transition: 0.5s;
+}
+
+.add_btn {
+    background-color: #0093D4;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul {
+    padding: 20px 10px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.fa-solid {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.fa-solid:hover {
+    color: #1a1a1a;
+}
+
+.fa-pen {
+    color: #0093D4;
+    margin-left: 40px;
+}
+
+.fa-delete-left {
+    color: #c21d1d;
+}
