@@ -22,19 +22,20 @@
         <h1>To do list</h1>
         <form action="#">
             <!-- <label for="new_task">New Task</label> -->
-            <input type="text" name="new_task" id="new_task" placeholder="add a new task">
+            <input type="text" name="new_task" id="input" placeholder="add a new task">
         </form>
-        <button class="add_btn">Add Task</button>
+        <button class="add_btn" id="add_button">Add Task</button>
 
         <div>
             <h2> Task list</h2>
-            <ul>
-                <li>Finish the javascript project<i class="fa-solid fa-pen"></i><i class="fa-solid fa-delete-left"></i>
+            <ul id="task_list">
+                <li>Finish the javascript project<i class="fa-solid fa-delete-left"></i>
                 </li>
             </ul>
         </div>
     </div>
-
+    <!-- js link -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

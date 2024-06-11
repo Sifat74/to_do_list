@@ -6,7 +6,7 @@
 body {
     font-family: "Oswald", sans-serif;
     background-color: #DCDCDC;
-    padding: 120px 0;
+    padding: 120px 30px;
 }
 
 .container {
@@ -74,11 +74,11 @@ ul li {
     color: #1a1a1a;
 }
 
-.fa-pen {
+/* .fa-pen {
     color: #0093D4;
-    margin-left: 40px;
-}
+} */
 
 .fa-delete-left {
     color: #c21d1d;
+    margin-left: 40px;
 }
