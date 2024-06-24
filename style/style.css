@@ -62,23 +62,20 @@ ul {
 ul li {
     list-style: none;
     font-size: 18px;
-    padding: 10px 0px;
+    padding: 12px 12px 8px 50px;
+    position: relative;
 }
 
-.fa-solid {
-    padding: 0px 10px;
-    font-size: 16px;
-}
 
-.fa-solid:hover {
-    color: #1a1a1a;
-}
-
-/* .fa-pen {
-    color: #0093D4;
-} */
-
-.fa-delete-left {
-    color: #c21d1d;
-    margin-left: 40px;
+.list_item::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-image: url('/assets/default_cercle.png');
+    background-size: cover;
+    background-position: center;
+    left: 10px;
+    /* Adjust positioning as needed */
 }
