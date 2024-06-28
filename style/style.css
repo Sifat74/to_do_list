@@ -77,5 +77,12 @@ ul li {
     background-size: cover;
     background-position: center;
     left: 10px;
-    /* Adjust positioning as needed */
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.checked::before {
+    background-image: url('/assets/completed_circle.png');
 }
